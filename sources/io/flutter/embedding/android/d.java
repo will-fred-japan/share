@@ -1,0 +1,567 @@
+package io.flutter.embedding.android;
+
+import java.util.HashMap;
+
+/* JADX INFO: compiled from: KeyboardMap.java */
+/* JADX INFO: loaded from: classes2.dex */
+public final class d {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final a f19397a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public static final b f19398b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public static final C0213d[] f19399c;
+
+    /* JADX INFO: compiled from: KeyboardMap.java */
+    public class a extends HashMap<Long, Long> {
+        private static final long serialVersionUID = 1;
+    }
+
+    /* JADX INFO: compiled from: KeyboardMap.java */
+    public class b extends HashMap<Long, Long> {
+        private static final long serialVersionUID = 1;
+
+        public b() {
+            put(62L, 32L);
+            put(75L, 34L);
+            put(18L, 35L);
+            put(17L, 42L);
+            put(81L, 43L);
+            put(55L, 44L);
+            put(69L, 45L);
+            put(56L, 46L);
+            put(76L, 47L);
+            put(7L, 48L);
+            put(8L, 49L);
+            put(9L, 50L);
+            put(10L, 51L);
+            put(11L, 52L);
+            put(12L, 53L);
+            put(13L, 54L);
+            put(14L, 55L);
+            put(15L, 56L);
+            put(16L, 57L);
+            put(74L, 59L);
+            put(70L, 61L);
+            put(77L, 64L);
+            put(71L, 91L);
+            put(73L, 92L);
+            put(72L, 93L);
+            put(68L, 96L);
+            put(29L, 97L);
+            put(30L, 98L);
+            put(31L, 99L);
+            put(32L, 100L);
+            put(33L, 101L);
+            put(34L, 102L);
+            put(35L, 103L);
+            put(36L, 104L);
+            put(37L, 105L);
+            put(38L, 106L);
+            put(39L, 107L);
+            put(40L, 108L);
+            put(41L, 109L);
+            put(42L, 110L);
+            put(43L, 111L);
+            put(44L, 112L);
+            put(45L, 113L);
+            put(46L, 114L);
+            put(47L, 115L);
+            put(48L, 116L);
+            put(49L, 117L);
+            put(50L, 118L);
+            put(51L, 119L);
+            put(52L, 120L);
+            put(53L, 121L);
+            put(54L, 122L);
+            put(67L, 4294967304L);
+            put(61L, 4294967305L);
+            put(66L, 4294967309L);
+            put(111L, 4294967323L);
+            put(112L, 4294967423L);
+            put(115L, 4294967556L);
+            put(119L, 4294967558L);
+            put(143L, 4294967562L);
+            put(116L, 4294967564L);
+            put(63L, 4294967567L);
+            put(20L, 4294968065L);
+            put(21L, 4294968066L);
+            put(22L, 4294968067L);
+            put(19L, 4294968068L);
+            put(123L, 4294968069L);
+            put(122L, 4294968070L);
+            put(93L, 4294968071L);
+            put(92L, 4294968072L);
+            put(28L, 4294968321L);
+            put(278L, 4294968322L);
+            put(277L, 4294968324L);
+            put(124L, 4294968327L);
+            put(279L, 4294968328L);
+            put(82L, 4294968581L);
+            put(259L, 4294968584L);
+            put(121L, 4294968585L);
+            put(23L, 4294968588L);
+            put(168L, 4294968589L);
+            put(169L, 4294968590L);
+            put(220L, 4294968833L);
+            put(221L, 4294968834L);
+            put(27L, 4294968835L);
+            put(129L, 4294968836L);
+            put(26L, 4294968838L);
+            put(120L, 4294968840L);
+            put(224L, 4294968843L);
+            put(214L, 4294969093L);
+            put(204L, 4294969097L);
+            put(95L, 4294969099L);
+            put(213L, 4294969101L);
+            put(212L, 4294969108L);
+            put(215L, 4294969111L);
+            put(218L, 4294969113L);
+            put(211L, 4294969117L);
+            put(131L, 4294969345L);
+            put(132L, 4294969346L);
+            put(133L, 4294969347L);
+            put(134L, 4294969348L);
+            put(135L, 4294969349L);
+            put(136L, 4294969350L);
+            put(137L, 4294969351L);
+            put(138L, 4294969352L);
+            put(139L, 4294969353L);
+            put(140L, 4294969354L);
+            put(141L, 4294969355L);
+            put(142L, 4294969356L);
+            put(128L, 4294969857L);
+            put(85L, 4294969861L);
+            put(86L, 4294969863L);
+            put(87L, 4294969864L);
+            put(88L, 4294969865L);
+            put(25L, 4294969871L);
+            put(24L, 4294969872L);
+            put(164L, 4294969873L);
+            put(208L, 4294970114L);
+            put(65L, 4294970115L);
+            put(209L, 4294970117L);
+            put(64L, 4294970121L);
+            put(207L, 4294970124L);
+            put(219L, 4294970126L);
+            put(174L, 4294970370L);
+            put(125L, 4294970371L);
+            put(84L, 4294970374L);
+            put(182L, 4294970632L);
+            put(181L, 4294970633L);
+            put(167L, 4294970634L);
+            put(166L, 4294970635L);
+            put(183L, 4294970636L);
+            put(184L, 4294970637L);
+            put(185L, 4294970638L);
+            put(186L, 4294970639L);
+            put(175L, 4294970642L);
+            put(172L, 4294970658L);
+            put(165L, 4294970661L);
+            put(90L, 4294970668L);
+            put(229L, 4294970669L);
+            put(127L, 4294970670L);
+            put(126L, 4294970671L);
+            put(130L, 4294970672L);
+            put(89L, 4294970673L);
+            put(176L, 4294970691L);
+            put(180L, 4294970693L);
+            put(179L, 4294970694L);
+            put(233L, 4294970696L);
+            put(170L, 4294970697L);
+            put(178L, 4294970698L);
+            put(177L, 4294970699L);
+            put(255L, 4294970702L);
+            put(173L, 4294970703L);
+            put(222L, 4294970704L);
+            put(273L, 4294970705L);
+            put(272L, 4294970706L);
+            put(275L, 4294970707L);
+            put(274L, 4294970708L);
+            put(226L, 4294970709L);
+            put(262L, 4294970710L);
+            put(261L, 4294970711L);
+            put(263L, 4294970712L);
+            put(260L, 4294970713L);
+            put(225L, 4294970714L);
+            put(91L, 4294970889L);
+            put(187L, 4294971393L);
+            put(5L, 4294971394L);
+            put(80L, 4294971395L);
+            put(6L, 4294971396L);
+            put(4L, 4294971397L);
+            put(3L, 4294971398L);
+            put(79L, 4294971399L);
+            put(83L, 4294971401L);
+            put(205L, 4294971402L);
+            put(206L, 4294971649L);
+            put(242L, 4294971650L);
+            put(252L, 4294971651L);
+            put(254L, 4294971652L);
+            put(253L, 4294971653L);
+            put(256L, 4294971654L);
+            put(230L, 4294971655L);
+            put(249L, 4294971656L);
+            put(250L, 4294971657L);
+            put(247L, 4294971658L);
+            put(248L, 4294971659L);
+            put(243L, 4294971660L);
+            put(244L, 4294971661L);
+            put(245L, 4294971662L);
+            put(246L, 4294971663L);
+            put(251L, 4294971664L);
+            put(241L, 4294971666L);
+            put(234L, 4294971667L);
+            put(232L, 4294971668L);
+            put(237L, 4294971669L);
+            put(238L, 4294971670L);
+            put(239L, 4294971671L);
+            put(240L, 4294971672L);
+            put(235L, 4294971673L);
+            put(236L, 4294971674L);
+            put(258L, 4294971675L);
+            put(223L, 8589934594L);
+            put(217L, 8589934625L);
+            put(216L, 8589934626L);
+            put(113L, 8589934848L);
+            put(114L, 8589934849L);
+            put(59L, 8589934850L);
+            put(60L, 8589934851L);
+            put(57L, 8589934852L);
+            put(58L, 8589934853L);
+            put(117L, 8589934854L);
+            put(118L, 8589934855L);
+            put(160L, 8589935117L);
+            put(162L, 8589935144L);
+            put(163L, 8589935145L);
+            put(155L, 8589935146L);
+            put(157L, 8589935147L);
+            put(159L, 8589935148L);
+            put(156L, 8589935149L);
+            put(158L, 8589935150L);
+            put(154L, 8589935151L);
+            put(144L, 8589935152L);
+            put(145L, 8589935153L);
+            put(146L, 8589935154L);
+            put(147L, 8589935155L);
+            put(148L, 8589935156L);
+            put(149L, 8589935157L);
+            put(150L, 8589935158L);
+            put(151L, 8589935159L);
+            put(152L, 8589935160L);
+            put(153L, 8589935161L);
+            put(161L, 8589935165L);
+            put(188L, 8589935361L);
+            put(189L, 8589935362L);
+            put(190L, 8589935363L);
+            put(191L, 8589935364L);
+            put(192L, 8589935365L);
+            put(193L, 8589935366L);
+            put(194L, 8589935367L);
+            put(195L, 8589935368L);
+            put(196L, 8589935369L);
+            put(197L, 8589935370L);
+            put(198L, 8589935371L);
+            put(199L, 8589935372L);
+            put(200L, 8589935373L);
+            put(201L, 8589935374L);
+            put(202L, 8589935375L);
+            put(203L, 8589935376L);
+            put(96L, 8589935377L);
+            put(97L, 8589935378L);
+            put(98L, 8589935379L);
+            put(102L, 8589935380L);
+            put(104L, 8589935381L);
+            put(110L, 8589935382L);
+            put(103L, 8589935383L);
+            put(105L, 8589935384L);
+            put(109L, 8589935385L);
+            put(108L, 8589935386L);
+            put(106L, 8589935387L);
+            put(107L, 8589935388L);
+            put(99L, 8589935389L);
+            put(100L, 8589935390L);
+            put(101L, 8589935391L);
+        }
+    }
+
+    /* JADX INFO: compiled from: KeyboardMap.java */
+    public static class c {
+
+        /* JADX INFO: renamed from: a, reason: collision with root package name */
+        public final long f19400a;
+
+        /* JADX INFO: renamed from: b, reason: collision with root package name */
+        public final long f19401b;
+
+        public c(long j, long j8) {
+            this.f19400a = j;
+            this.f19401b = j8;
+        }
+    }
+
+    /* JADX INFO: renamed from: io.flutter.embedding.android.d$d, reason: collision with other inner class name */
+    /* JADX INFO: compiled from: KeyboardMap.java */
+    public static class C0213d {
+
+        /* JADX INFO: renamed from: a, reason: collision with root package name */
+        public final int f19402a;
+
+        /* JADX INFO: renamed from: b, reason: collision with root package name */
+        public final c[] f19403b;
+
+        public C0213d(int i9, c[] cVarArr) {
+            this.f19402a = i9;
+            this.f19403b = cVarArr;
+        }
+    }
+
+    /* JADX INFO: compiled from: KeyboardMap.java */
+    public static class e {
+
+        /* JADX INFO: renamed from: a, reason: collision with root package name */
+        public boolean f19404a = false;
+    }
+
+    static {
+        a aVar = new a();
+        aVar.put(464L, 18L);
+        aVar.put(205L, 20L);
+        aVar.put(142L, 65666L);
+        aVar.put(143L, 65667L);
+        aVar.put(256L, 392961L);
+        aVar.put(288L, 392961L);
+        aVar.put(257L, 392962L);
+        aVar.put(289L, 392962L);
+        aVar.put(258L, 392963L);
+        aVar.put(290L, 392963L);
+        aVar.put(259L, 392964L);
+        aVar.put(291L, 392964L);
+        aVar.put(260L, 392965L);
+        aVar.put(292L, 392965L);
+        aVar.put(261L, 392966L);
+        aVar.put(293L, 392966L);
+        aVar.put(262L, 392967L);
+        aVar.put(294L, 392967L);
+        aVar.put(263L, 392968L);
+        aVar.put(295L, 392968L);
+        aVar.put(264L, 392969L);
+        aVar.put(296L, 392969L);
+        aVar.put(265L, 392970L);
+        aVar.put(297L, 392970L);
+        aVar.put(266L, 392971L);
+        aVar.put(298L, 392971L);
+        aVar.put(267L, 392972L);
+        aVar.put(299L, 392972L);
+        aVar.put(268L, 392973L);
+        aVar.put(300L, 392973L);
+        aVar.put(269L, 392974L);
+        aVar.put(301L, 392974L);
+        aVar.put(270L, 392975L);
+        aVar.put(302L, 392975L);
+        aVar.put(271L, 392976L);
+        aVar.put(303L, 392976L);
+        aVar.put(304L, 392977L);
+        aVar.put(305L, 392978L);
+        aVar.put(306L, 392979L);
+        aVar.put(310L, 392980L);
+        aVar.put(312L, 392981L);
+        aVar.put(316L, 392982L);
+        aVar.put(311L, 392983L);
+        aVar.put(313L, 392984L);
+        aVar.put(314L, 392985L);
+        aVar.put(315L, 392986L);
+        aVar.put(317L, 392987L);
+        aVar.put(318L, 392988L);
+        aVar.put(307L, 392989L);
+        aVar.put(308L, 392990L);
+        aVar.put(309L, 392991L);
+        aVar.put(30L, 458756L);
+        aVar.put(48L, 458757L);
+        aVar.put(46L, 458758L);
+        aVar.put(32L, 458759L);
+        aVar.put(18L, 458760L);
+        aVar.put(33L, 458761L);
+        aVar.put(34L, 458762L);
+        aVar.put(35L, 458763L);
+        aVar.put(23L, 458764L);
+        aVar.put(36L, 458765L);
+        aVar.put(37L, 458766L);
+        aVar.put(38L, 458767L);
+        aVar.put(50L, 458768L);
+        aVar.put(49L, 458769L);
+        aVar.put(24L, 458770L);
+        aVar.put(25L, 458771L);
+        aVar.put(16L, 458772L);
+        aVar.put(19L, 458773L);
+        aVar.put(31L, 458774L);
+        aVar.put(20L, 458775L);
+        aVar.put(22L, 458776L);
+        aVar.put(47L, 458777L);
+        aVar.put(17L, 458778L);
+        aVar.put(45L, 458779L);
+        aVar.put(21L, 458780L);
+        aVar.put(44L, 458781L);
+        aVar.put(2L, 458782L);
+        aVar.put(3L, 458783L);
+        aVar.put(4L, 458784L);
+        aVar.put(5L, 458785L);
+        aVar.put(6L, 458786L);
+        aVar.put(7L, 458787L);
+        aVar.put(8L, 458788L);
+        aVar.put(9L, 458789L);
+        aVar.put(10L, 458790L);
+        aVar.put(11L, 458791L);
+        aVar.put(28L, 458792L);
+        aVar.put(1L, 458793L);
+        aVar.put(14L, 458794L);
+        aVar.put(15L, 458795L);
+        aVar.put(57L, 458796L);
+        aVar.put(12L, 458797L);
+        aVar.put(13L, 458798L);
+        aVar.put(26L, 458799L);
+        aVar.put(27L, 458800L);
+        aVar.put(43L, 458801L);
+        aVar.put(86L, 458801L);
+        aVar.put(39L, 458803L);
+        aVar.put(40L, 458804L);
+        aVar.put(41L, 458805L);
+        aVar.put(51L, 458806L);
+        aVar.put(52L, 458807L);
+        aVar.put(53L, 458808L);
+        aVar.put(58L, 458809L);
+        aVar.put(59L, 458810L);
+        aVar.put(60L, 458811L);
+        aVar.put(61L, 458812L);
+        aVar.put(62L, 458813L);
+        aVar.put(63L, 458814L);
+        aVar.put(64L, 458815L);
+        aVar.put(65L, 458816L);
+        aVar.put(66L, 458817L);
+        aVar.put(67L, 458818L);
+        aVar.put(68L, 458819L);
+        aVar.put(87L, 458820L);
+        aVar.put(88L, 458821L);
+        aVar.put(99L, 458822L);
+        aVar.put(70L, 458823L);
+        aVar.put(119L, 458824L);
+        aVar.put(411L, 458824L);
+        aVar.put(110L, 458825L);
+        aVar.put(102L, 458826L);
+        aVar.put(104L, 458827L);
+        aVar.put(177L, 458827L);
+        aVar.put(111L, 458828L);
+        aVar.put(107L, 458829L);
+        aVar.put(109L, 458830L);
+        aVar.put(178L, 458830L);
+        aVar.put(106L, 458831L);
+        aVar.put(105L, 458832L);
+        aVar.put(108L, 458833L);
+        aVar.put(103L, 458834L);
+        aVar.put(69L, 458835L);
+        aVar.put(98L, 458836L);
+        aVar.put(55L, 458837L);
+        aVar.put(74L, 458838L);
+        aVar.put(78L, 458839L);
+        aVar.put(96L, 458840L);
+        aVar.put(79L, 458841L);
+        aVar.put(80L, 458842L);
+        aVar.put(81L, 458843L);
+        aVar.put(75L, 458844L);
+        aVar.put(76L, 458845L);
+        aVar.put(77L, 458846L);
+        aVar.put(71L, 458847L);
+        aVar.put(72L, 458848L);
+        aVar.put(73L, 458849L);
+        aVar.put(82L, 458850L);
+        aVar.put(83L, 458851L);
+        aVar.put(127L, 458853L);
+        aVar.put(139L, 458853L);
+        aVar.put(116L, 458854L);
+        aVar.put(152L, 458854L);
+        aVar.put(117L, 458855L);
+        aVar.put(183L, 458856L);
+        aVar.put(184L, 458857L);
+        aVar.put(185L, 458858L);
+        aVar.put(186L, 458859L);
+        aVar.put(187L, 458860L);
+        aVar.put(188L, 458861L);
+        aVar.put(189L, 458862L);
+        aVar.put(190L, 458863L);
+        aVar.put(191L, 458864L);
+        aVar.put(192L, 458865L);
+        aVar.put(193L, 458866L);
+        aVar.put(194L, 458867L);
+        aVar.put(134L, 458868L);
+        aVar.put(138L, 458869L);
+        aVar.put(353L, 458871L);
+        aVar.put(129L, 458873L);
+        aVar.put(131L, 458874L);
+        aVar.put(137L, 458875L);
+        aVar.put(133L, 458876L);
+        aVar.put(135L, 458877L);
+        aVar.put(136L, 458878L);
+        aVar.put(113L, 458879L);
+        aVar.put(115L, 458880L);
+        aVar.put(114L, 458881L);
+        aVar.put(95L, 458885L);
+        aVar.put(121L, 458885L);
+        aVar.put(89L, 458887L);
+        aVar.put(124L, 458889L);
+        aVar.put(92L, 458890L);
+        aVar.put(94L, 458891L);
+        aVar.put(90L, 458898L);
+        aVar.put(91L, 458899L);
+        aVar.put(130L, 458915L);
+        aVar.put(179L, 458934L);
+        aVar.put(180L, 458935L);
+        aVar.put(29L, 458976L);
+        aVar.put(42L, 458977L);
+        aVar.put(56L, 458978L);
+        aVar.put(125L, 458979L);
+        aVar.put(97L, 458980L);
+        aVar.put(54L, 458981L);
+        aVar.put(100L, 458982L);
+        aVar.put(126L, 458983L);
+        aVar.put(358L, 786528L);
+        aVar.put(370L, 786529L);
+        aVar.put(225L, 786543L);
+        aVar.put(224L, 786544L);
+        aVar.put(405L, 786563L);
+        aVar.put(174L, 786580L);
+        aVar.put(402L, 786588L);
+        aVar.put(403L, 786589L);
+        aVar.put(200L, 786608L);
+        aVar.put(207L, 786608L);
+        aVar.put(201L, 786609L);
+        aVar.put(167L, 786610L);
+        aVar.put(208L, 786611L);
+        aVar.put(168L, 786612L);
+        aVar.put(163L, 786613L);
+        aVar.put(165L, 786614L);
+        aVar.put(128L, 786615L);
+        aVar.put(166L, 786615L);
+        aVar.put(161L, 786616L);
+        aVar.put(162L, 786616L);
+        aVar.put(164L, 786637L);
+        aVar.put(209L, 786661L);
+        aVar.put(155L, 786826L);
+        aVar.put(215L, 786826L);
+        aVar.put(429L, 786829L);
+        aVar.put(397L, 786830L);
+        aVar.put(583L, 786891L);
+        aVar.put(160L, 786947L);
+        aVar.put(206L, 786947L);
+        aVar.put(210L, 786952L);
+        aVar.put(217L, 786977L);
+        aVar.put(159L, 786981L);
+        aVar.put(156L, 786986L);
+        aVar.put(182L, 787065L);
+        f19397a = aVar;
+        f19398b = new b();
+        f19399c = new C0213d[]{new C0213d(4096, new c[]{new c(458976L, 8589934848L), new c(458980L, 8589934849L)}), new C0213d(1, new c[]{new c(458977L, 8589934850L), new c(458981L, 8589934851L)}), new C0213d(2, new c[]{new c(458978L, 8589934852L), new c(458982L, 8589934853L)})};
+    }
+}

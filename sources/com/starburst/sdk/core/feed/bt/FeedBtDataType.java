@@ -1,0 +1,57 @@
+package com.starburst.sdk.core.feed.bt;
+
+/* JADX INFO: loaded from: classes.dex */
+public class FeedBtDataType {
+    public static final int FEED_AIGC_GEN_CANCEL_REQ = 92;
+    public static final int FEED_AIGC_GEN_CANCEL_RSP = 93;
+    public static final int FEED_AIGC_GEN_RESULT_REQ = 90;
+    public static final int FEED_AIGC_GEN_RESULT_RSP = 91;
+    public static final int FEED_AIGC_GEN_START_REQ = 88;
+    public static final int FEED_AIGC_GEN_START_RSP = 89;
+    public static final int FEED_ASR_RECORD_DATA_REQ = 82;
+    public static final int FEED_ASR_RECORD_DATA_RSP = 83;
+    public static final int FEED_ASR_RECORD_START_REQ = 80;
+    public static final int FEED_ASR_RECORD_START_RSP = 81;
+    public static final int FEED_ASR_RECORD_STOP_REQ = 84;
+    public static final int FEED_ASR_RECORD_STOP_RSP = 85;
+    public static final int FEED_ASR_RESULT_SYNC_REQ = 86;
+    public static final int FEED_ASR_RESULT_SYNC_RSP = 87;
+    public static final int FEED_BASIC_EMOJI_SYNC_REQ = 2;
+    public static final int FEED_BASIC_EMOJI_SYNC_RSP = 3;
+    public static final int FEED_BASIC_TEXT_SYNC_REQ = 0;
+    public static final int FEED_BASIC_TEXT_SYNC_RSP = 1;
+    public static final int FEED_CONTENT_TTS_A2DP_START_REQ = 68;
+    public static final int FEED_CONTENT_TTS_A2DP_START_RSP = 69;
+    public static final int FEED_CONTENT_TTS_A2DP_STOP_REQ = 70;
+    public static final int FEED_CONTENT_TTS_A2DP_STOP_RSP = 71;
+    public static final int FEED_CONTENT_TTS_START_REQ = 64;
+    public static final int FEED_CONTENT_TTS_START_RSP = 65;
+    public static final int FEED_CONTENT_TTS_STOP_REQ = 66;
+    public static final int FEED_CONTENT_TTS_STOP_RSP = 67;
+    public static final int FEED_FILE_DATA_SPLIT_REQ = 36;
+    public static final int FEED_FILE_DATA_SPLIT_RESEND_REQ = 42;
+    public static final int FEED_FILE_DATA_SPLIT_RESEND_RSP = 43;
+    public static final int FEED_FILE_DATA_SPLIT_RSP = 37;
+    public static final int FEED_FILE_DOWNLOAD_DONE_REQ = 40;
+    public static final int FEED_FILE_DOWNLOAD_DONE_RSP = 41;
+    public static final int FEED_FILE_DOWNLOAD_INTERRUPT_REQ = 38;
+    public static final int FEED_FILE_DOWNLOAD_INTERRUPT_RSP = 39;
+    public static final int FEED_FILE_DOWNLOAD_START_REQ = 34;
+    public static final int FEED_FILE_DOWNLOAD_START_RSP = 35;
+    public static final int FEED_FILE_UPDATE_REQ = 32;
+    public static final int FEED_FILE_UPDATE_RSP = 33;
+    public static final int FEED_INFO_SYNC_CONFIG_REQ = 18;
+    public static final int FEED_INFO_SYNC_CONFIG_RSP = 19;
+    public static final int FEED_INFO_SYNC_RTC_REQ = 16;
+    public static final int FEED_INFO_SYNC_RTC_RSP = 17;
+    public static final int FEED_TTS_DATA_REQ = 50;
+    public static final int FEED_TTS_DATA_RSP = 51;
+    public static final int FEED_TTS_START_REQ = 48;
+    public static final int FEED_TTS_START_RSP = 49;
+    public static final int FEED_TTS_STOP_REQ = 54;
+    public static final int FEED_TTS_STOP_RSP = 55;
+    public static final int FEED_TTS_SWND_SYNC_REQ = 52;
+    public static final int FEED_TTS_SWND_SYNC_RSP = 53;
+    public static final int FEED_USER_PREF_REQ = 112;
+    public static final int FEED_USER_PREF_RSP = 113;
+}

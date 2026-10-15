@@ -1,0 +1,6 @@
+package com.huawei.hmf.tasks;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface SuccessContinuation<TResult, TContinuationResult> {
+    Task<TContinuationResult> then(TResult tresult);
+}

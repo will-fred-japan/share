@@ -1,0 +1,30 @@
+package com.huawei.hms.support.api.entity.push;
+
+import com.huawei.hms.core.aidl.IMessageEntity;
+import com.huawei.hms.core.aidl.annotation.Packed;
+
+/* JADX INFO: loaded from: classes.dex */
+public class SubscribeNotificationResp implements IMessageEntity {
+
+    @Packed
+    private int retCode = -1;
+
+    @Packed
+    private String subscribeResults;
+
+    public int getRetCode() {
+        return this.retCode;
+    }
+
+    public String getSubscribeResults() {
+        return this.subscribeResults;
+    }
+
+    public void setRetCode(int i9) {
+        this.retCode = i9;
+    }
+
+    public void setSubscribeResults(String str) {
+        this.subscribeResults = str;
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g>
+    <circle cx="25" cy="20.01" r="8.75" style="fill: #606060;"/>
+    <path d="m9.6,47.67h30.8c.19,0,.35-.16.35-.35,0-8.7-7.05-15.75-15.75-15.75s-15.75,7.05-15.75,15.75c0,.19.16.35.35.35Z" style="fill: #606060; fill-rule: evenodd;"/>
+  </g>
+  <rect width="50" height="50" style="fill: none; opacity: 0;"/>
+</svg>

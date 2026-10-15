@@ -1,0 +1,26 @@
+package com.huawei.hms.aaid.plugin;
+
+import android.content.Context;
+import com.huawei.hmf.tasks.Task;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface PushProxy {
+    void deleteAllToken(Context context);
+
+    void deleteToken(Context context, String str, String str2);
+
+    JSONObject getPlatform();
+
+    String getProxyType();
+
+    void getToken(Context context, String str, String str2);
+
+    Task<Void> subscribe(Context context, String str, String str2);
+
+    Task<Void> turnOff(Context context, String str);
+
+    Task<Void> turnOn(Context context, String str);
+
+    Task<Void> unsubscribe(Context context, String str, String str2);
+}

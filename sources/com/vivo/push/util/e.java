@@ -1,0 +1,11 @@
+package com.vivo.push.util;
+
+import android.content.Context;
+
+/* JADX INFO: compiled from: Cache.java */
+/* JADX INFO: loaded from: classes.dex */
+interface e {
+    String a(String str, String str2);
+
+    boolean a(Context context);
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+<table align="center" style="margin-top:20px">
+    <tr>
+        <td>
+            <div id="qrcode"></div>
+        </td>
+    </tr>
+</table>
+</body>
+
+<!--<script type="text/javascript" src="file:///sdcard/alisdk/ble_analyze.js"></script>-->
+
+
+<script>
+    function refreshLocation(location){
+        console.log("location"+location);
+    }
+    console.log("加载script");
+
+    function addScript(path){
+    console.log("addScript--"+path);
+    var head= document.getElementsByTagName('head')[0];
+    var script= document.createElement('script');
+    script.type= 'text/javascript';
+    script.src= path;
+    head.appendChild(script);
+
+    }
+
+    function doJsHttp(data){
+        console.log("doJsHttp"+data);
+        var byteData = HexString2Bytes(data);
+        var result = cmd_analyze_0x43(byteData);
+        return BytesToHexString(result);
+    }
+
+
+
+    function  HexString2Bytes(str) {
+    var pos = 0;
+    var len = str.length;
+    if (len % 2 != 0) {
+      return null;
+    }
+    len /= 2;
+    var arrBytes = new Array();
+    for (var i = 0; i < len; i++) {
+      var s = str.substr(pos, 2);
+      var v = parseInt(s, 16);
+      arrBytes.push(v);
+      pos += 2;
+    }
+    return arrBytes;
+  }
+
+function BytesToHexString(arrBytes) {
+  var str = "";
+  for (var i = 0; i < arrBytes.length; i++) {
+    var tmp;
+    var num=arrBytes[i];
+    if (num < 0) {
+    //此处填坑，当byte因为符合位导致数值为负时候，需要对数据进行处理
+      tmp =(255+num+1).toString(16);
+    } else {
+      tmp = num.toString(16);
+    }
+    if (tmp.length == 1) {
+      tmp = "0" + tmp;
+    }
+    str += tmp;
+  }
+  return str;
+}
+
+
+</script>
+
+</html>
